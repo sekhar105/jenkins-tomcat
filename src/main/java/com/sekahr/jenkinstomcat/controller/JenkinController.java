@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@ResponseBody
+//@ResponseBody
 public class JenkinController {
 
 	
 	@RequestMapping("/add")
 	public String welcome() {
 		
-		return "welcome bro";
+		return "welcome";
 	}
 }
