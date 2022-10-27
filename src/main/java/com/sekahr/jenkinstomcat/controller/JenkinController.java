@@ -10,6 +10,6 @@ public class JenkinController {
 	@RequestMapping("/")
 	public String welcome() {
 		
-		return "welcome";
+		return "welcome bro";
 	}
 }
