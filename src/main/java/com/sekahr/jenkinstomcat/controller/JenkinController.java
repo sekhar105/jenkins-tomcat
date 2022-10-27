@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class JenkinController {
 
 	
-	@RequestMapping("/add")
+	@RequestMapping("/")
 	public String welcome() {
 		
 		return "welcome";
